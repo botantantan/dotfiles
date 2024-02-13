@@ -1,3 +1,3 @@
 #README
 
-dotfiles or config files
+dotfiles 

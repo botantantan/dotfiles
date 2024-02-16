@@ -1,11 +1,21 @@
-#README
+# README
 
-dotfiles for
-i3
-i3status
-firefox
-tmux
-vim
-bash
-rclone
-res
+### dotfiles
+#### config
+- i3
+    - i3status
+        - power.sh
+- tmux
+- vim
+- bash
+- rclone
+
+#### app
+- firefox
+    - userChrome.css
+    - treeStyleTab.css
+- RES
+- vencord
+- tsukiweb
+
+#### misc

@@ -1,0 +1,22 @@
+# aliases
+alias ls='exa -al --header --icons --group-directories-first'
+
+# dotfiles
+alias bs='vim ~/.bashrc'
+alias bsa='vim ~/.bash_aliases'
+alias reload='. ~/.bashrc'
+alias ei3='vim ~/.config/i3/config'
+alias ei3stat='vim ~/.config/i3status/i3status.conf'
+
+# color
+alias egrep='grep --color=auto'
+
+# Colour codes
+RED="\\[\\e[1;31m\\]"
+GREEN="\\[\\e[1;32m\\]"
+YELLOW="\\[\\e[1;33m\\]"
+BLUE="\\[\\e[1;34m\\]"
+MAGENTA="\\[\\e[1;35m\\]"
+CYAN="\\[\\e[1;36m\\]"
+WHITE="\\[\\e[1;37m\\]"
+ENDC="\\[\\e[0m\\]"

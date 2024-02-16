@@ -1,2 +1,2 @@
 #! /usr/bin/bash
-rclone --vfs-cache-mode writes mount "itb": ~/itbOneDrive
+rclone --vfs-cache-mode writes mount "itbOneDrive": ~/itbOneDrive &

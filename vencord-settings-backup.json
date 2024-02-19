@@ -44,7 +44,7 @@
                 "enabled": true
             },
             "ServerListAPI": {
-                "enabled": false
+                "enabled": true
             },
             "NoTrack": {
                 "enabled": true
@@ -72,7 +72,13 @@
                 "enabled": false
             },
             "BetterFolders": {
-                "enabled": true
+                "enabled": true,
+                "sidebar": true,
+                "showFolderIcon": 1,
+                "closeAllHomeButton": false,
+                "keepIcons": false,
+                "closeAllFolders": false,
+                "forceOpen": false
             },
             "BetterGifAltText": {
                 "enabled": false
@@ -138,7 +144,12 @@
                 "enabled": false
             },
             "FakeNitro": {
-                "enabled": true
+                "enabled": true,
+                "enableEmojiBypass": true,
+                "enableStickerBypass": true,
+                "enableStreamQualityBypass": true,
+                "transformStickers": true,
+                "transformEmojis": true
             },
             "FakeProfileThemes": {
                 "enabled": false
@@ -198,7 +209,8 @@
                 "enabled": false
             },
             "MessageLogger": {
-                "enabled": true
+                "enabled": true,
+                "deleteStyle": "text"
             },
             "MessageTags": {
                 "enabled": false
@@ -309,7 +321,7 @@
                 "enabled": false
             },
             "ReadAllNotificationsButton": {
-                "enabled": false
+                "enabled": true
             },
             "RelationshipNotifier": {
                 "enabled": false
@@ -457,7 +469,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1708108528609
+            "settingsSyncVersion": 1708285843761
         }
     },
     "quickCss": ""

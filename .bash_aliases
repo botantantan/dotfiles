@@ -1,12 +1,19 @@
 # aliases
 alias ls='exa -al --header --icons --group-directories-first'
+alias rr='ranger'
+alias install='sudo apt install'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
 
 # dotfiles
 alias bs='vim ~/.bashrc'
 alias bsa='vim ~/.bash_aliases'
-alias reload='. ~/.bashrc'
+alias reload='source ~/.bashrc'
 alias ei3='vim ~/.config/i3/config'
-alias ei3stat='vim ~/.config/i3status/i3status.conf'
+alias ei3stat='vim ~/.config/i3status/config'
+alias etmux='vim ~/.config/tmux/tmux.conf'
+alias rtmux='tmux source ~/.config/tmux/tmux.conf'
+alias evimrc='vim ~/.vimrc'
 
 # color
 alias egrep='grep --color=auto'

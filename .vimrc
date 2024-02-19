@@ -100,3 +100,8 @@ set mouse=a
 
 " Colorscheme
 colorscheme elflord
+
+" Status line modification
+set laststatus=2
+set statusline=%F%m%r%=%l:%c%{fugitive#statusline()}
+

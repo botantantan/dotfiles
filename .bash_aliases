@@ -4,6 +4,9 @@ alias rr='ranger'
 alias install='sudo apt install'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
+alias warpon='warp-cli mode warp+doh'
+alias warpoff='warp-cli mode doh'
+alias warpstat='warp-cli settings'
 
 # dotfiles
 alias bs='vim ~/.bashrc'

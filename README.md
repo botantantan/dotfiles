@@ -19,3 +19,10 @@
 - tsukiweb
 
 #### misc
+- tmux
+- vim
+- ffmpeg
+- fzf
+- ripgrep
+- exa
+- warp-cli

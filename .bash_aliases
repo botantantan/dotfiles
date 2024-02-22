@@ -30,3 +30,6 @@ MAGENTA="\\[\\e[1;35m\\]"
 CYAN="\\[\\e[1;36m\\]"
 WHITE="\\[\\e[1;37m\\]"
 ENDC="\\[\\e[0m\\]"
+
+# export
+export FZF_DEFAULT_COMMAND='find .'

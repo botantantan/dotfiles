@@ -103,11 +103,26 @@ set mouse=a
 " Colorscheme
 colorscheme elflord
 
-" Status line modification
+" Status line 
 set laststatus=2
 set statusline=%F%m%r%=%l:%c%{fugitive#statusline()}
 
-" FZF Keybind
+" FZF
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
+
+" netrw
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 3 
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
+
+nnoremap <silent> <C-Left> :tabprevious<CR>
+nnoremap <silent> <C-Right> :tabnext<CR>

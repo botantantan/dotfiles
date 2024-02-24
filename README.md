@@ -26,3 +26,4 @@
 - ripgrep
 - exa
 - warp-cli
+- mpv

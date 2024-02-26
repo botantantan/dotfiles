@@ -37,6 +37,7 @@ export FZF_DEFAULT_OPTS="
 --multi --height=60% --border=sharp 
 --layout=reverse --preview='tree -C {}' --preview-window='45%,border-sharp' 
 --info=inline --margin=1 --padding=1 --prompt='$(pwd) > '
+--bind='enter:execute($EDITOR {+})'
 --bind='ctrl-d:+reload(find -type d)'
 --bind='ctrl-d:+change-preview(tree -C {})'
 --bind='ctrl-d:+refresh-preview'

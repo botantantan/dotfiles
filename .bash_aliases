@@ -33,3 +33,15 @@ ENDC="\\[\\e[0m\\]"
 
 # export
 export FZF_DEFAULT_COMMAND='find .'
+export FZF_DEFAULT_OPTS="
+--multi --height=60% --border=sharp 
+--layout=reverse --preview='tree -C {}' --preview-window='45%,border-sharp' 
+--info=inline --margin=1 --padding=1 --prompt='$(pwd) > '
+--bind='ctrl-d:+reload(find -type d)'
+--bind='ctrl-d:+change-preview(tree -C {})'
+--bind='ctrl-d:+refresh-preview'
+--bind='ctrl-f:+reload(find -type f)'
+--bind='ctrl-f:+change-preview(cat {})'
+--bind='ctrl-f:+refresh-preview'
+"
+export EDITOR=vim

@@ -19,7 +19,7 @@ alias rtmux='tmux source ~/.config/tmux/tmux.conf'
 alias evimrc='vim ~/.vimrc'
 
 # color
-alias egrep='grep --color=auto'
+alias grep='grep --color=auto'
 
 # Colour codes
 RED="\\[\\e[1;31m\\]"

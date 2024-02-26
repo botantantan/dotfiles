@@ -32,6 +32,7 @@ WHITE="\\[\\e[1;37m\\]"
 ENDC="\\[\\e[0m\\]"
 
 # export
+export EDITOR=vim
 export FZF_DEFAULT_COMMAND='find .'
 export FZF_DEFAULT_OPTS="
 --multi --height=60% --border=sharp 
@@ -45,4 +46,6 @@ export FZF_DEFAULT_OPTS="
 --bind='ctrl-f:+change-preview(cat {})'
 --bind='ctrl-f:+refresh-preview'
 "
-export EDITOR=vim
+
+# path
+export PATH=$PATH:/home/fritz/Documents/fabric-samples/bin

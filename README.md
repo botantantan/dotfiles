@@ -16,6 +16,7 @@
     - treeStyleTab.css
 - RES
 - vencord
+- ffmpegimagethumbnailer
 - tsukiweb
 
 #### misc

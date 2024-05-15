@@ -1,30 +1,25 @@
 # README
 
 ### dotfiles
-#### config
 - i3
-    - i3status
-        - power.sh
+- i3status
+- ranger
 - tmux
-- vim
-- bash
-- rclone
+- bashrc
+- bsa
+- vimrc
 
-#### app
-- firefox
-    - userChrome.css
-    - treeStyleTab.css
-- RES
-- vencord
-- ffmpegimagethumbnailer
+### bin
+- itbOneDrive.sh
+- power.sh
+
+### firefox
+- treeStyleTab.css
+- userChrome.css
+
+### misc-config
 - tsukiweb
-
-#### misc
-- tmux
-- vim
-- ffmpeg
-- fzf
-- ripgrep
-- exa
-- warp-cli
-- mpv
+- res
+- vencord
+    - amoled-cord.theme.css
+- rart45

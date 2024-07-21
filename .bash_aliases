@@ -46,6 +46,3 @@ export FZF_DEFAULT_OPTS="
 --bind='ctrl-f:+change-preview(cat {})'
 --bind='ctrl-f:+refresh-preview'
 "
-
-# path
-export PATH=$PATH:/home/fritz/Documents/fabric-samples/bin

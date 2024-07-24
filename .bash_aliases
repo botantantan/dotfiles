@@ -17,6 +17,7 @@ alias ei3stat='vim ~/.config/i3status/config'
 alias etmux='vim ~/.config/tmux/tmux.conf'
 alias rtmux='tmux source ~/.config/tmux/tmux.conf'
 alias evimrc='vim ~/.vimrc'
+alias calledby='rm -r ~/.local/share/tmux/resurrect'
 
 # color
 alias grep='grep --color=auto'
@@ -46,3 +47,6 @@ export FZF_DEFAULT_OPTS="
 --bind='ctrl-f:+change-preview(cat {})'
 --bind='ctrl-f:+refresh-preview'
 "
+export PATH=$PATH:/usr/local/go/bin/
+export PATH=$PATH:/home/fritz/bin/
+export PATH=$PATH:/home/fritz/Documents/fabric-samples/bin/

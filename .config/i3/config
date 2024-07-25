@@ -29,9 +29,6 @@ exec --no-startup-id xrandr --output HDMI-2 --primary --same-as eDP-1 --mode 192
 # Start clip manager
 exec --no-startup-id xfce4-clipman
 
-# Start rclone
-exec --no-startup-id "~/bin/rcloneMount.sh"
-
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 

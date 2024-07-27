@@ -107,18 +107,39 @@ colorscheme elflord
 set laststatus=2
 set statusline=%F%m%r%=%l:%c%{fugitive#statusline()}
 
+" remove delay from escape (breaks any sequences using escape in insert mode)
+set timeoutlen=1000 ttimeoutlen=0
+
 " FZF
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <Leader>f :Rg<CR>
 
-" netrw
+" Netrw
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 3 
 let g:netrw_altv = 1
-let g:netrw_winsize = 25
+let g:netrw_winsize = 20
+let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
+let g:netrw_localcopydircmd = 'cp -r'
 
+" Open current file directory
+" nnoremap <leader>da :Lexplore %:p:h<CR>
+
+" Open current working directory 
+nnoremap <leader>dd :Lexplore<CR>
+
+function! NetrwMapping()
+  nmap <buffer> <Leader>dd :Lexplore<CR>
+  nmap <buffer> <C-l> :wincmd l<CR>
+endfunction
+
+augroup netrw_mapping
+  autocmd!
+  autocmd filetype netrw call NetrwMapping()
+augroup END
+
+" Keybind
 nnoremap <silent> <C-Left> :tabprevious<CR>
 nnoremap <silent> <C-Right> :tabnext<CR>
-nnoremap <silent> <F3> :Vex<CR>

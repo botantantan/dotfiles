@@ -1,7 +1,7 @@
 {
     "settings": {
         "notifyAboutUpdates": true,
-        "autoUpdate": false,
+        "autoUpdate": true,
         "autoUpdateNotification": true,
         "useQuickCss": true,
         "themeLinks": [],
@@ -79,7 +79,8 @@
                 "closeAllHomeButton": false,
                 "keepIcons": false,
                 "closeAllFolders": false,
-                "forceOpen": false
+                "forceOpen": false,
+                "sidebarAnim": true
             },
             "BetterGifAltText": {
                 "enabled": false
@@ -205,7 +206,7 @@
                 "enabled": false
             },
             "MessageClickActions": {
-                "enabled": false
+                "enabled": true
             },
             "MessageLinkEmbeds": {
                 "enabled": false
@@ -220,7 +221,8 @@
                 "ignoreChannels": "",
                 "ignoreGuilds": "",
                 "logEdits": true,
-                "logDeletes": true
+                "logDeletes": true,
+                "inlineEdits": true
             },
             "MessageTags": {
                 "enabled": false
@@ -259,7 +261,9 @@
                 "enabled": false
             },
             "NoReplyMention": {
-                "enabled": false
+                "enabled": false,
+                "userList": "1234567890123445,1234567890123445",
+                "shouldPingListed": true
             },
             "NoScreensharePreview": {
                 "enabled": false
@@ -319,7 +323,8 @@
                 "enabled": false
             },
             "QuickReply": {
-                "enabled": true
+                "enabled": true,
+                "shouldMention": 2
             },
             "ReactErrorDecoder": {
                 "enabled": false
@@ -588,10 +593,10 @@
             "VolumeBooster": {
                 "enabled": false
             },
-            "WatchTogetherAdblock": {
+            "XSOverlay": {
                 "enabled": false
             },
-            "XSOverlay": {
+            "YoutubeAdblock": {
                 "enabled": false
             }
         },
@@ -605,7 +610,7 @@
             "authenticated": false,
             "url": "https://api.vencord.dev/",
             "settingsSync": false,
-            "settingsSyncVersion": 1721539148209
+            "settingsSyncVersion": 1722574073383
         }
     },
     "quickCss": ""

@@ -1,25 +1,23 @@
-# README
-
-### dotfiles
+#### config files for linux
+dotfiles
 - i3
-- i3status
+- mpv
+- picom
 - ranger
 - tmux
-- bashrc
-- bsa
-- vimrc
+- bash
 
-### bin
-- itbOneDrive.sh
+bin
 - power.sh
 
-### firefox
+firefox
 - treeStyleTab.css
 - userChrome.css
 
-### misc-config
-- tsukiweb
+misc.
 - res
+- tsukiweb
 - vencord
-    - amoled-cord.theme.css
-- rart45
+
+todo
+- create symlink script / use dotfiles manager
